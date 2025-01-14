@@ -1,0 +1,1 @@
+This repository demonstrates the difference between using `CMD` and `ENTRYPOINT` in a Dockerfile. The original Dockerfile uses `CMD`, which can be overridden by a user's custom command. The solution Dockerfile uses `ENTRYPOINT`, which cannot be overridden, ensuring that the application always starts correctly.
